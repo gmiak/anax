@@ -1,0 +1,97 @@
+
+/*
+* Georges style!!!!
+*/
+
+
+body {
+     margin: 0 auto;
+     max-width: 950px;
+ }
+ /**----------------------
+ * header
+ */
+
+ .logo {
+   margin-left: 50%;
+ }
+
+ .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.navbar li:last-child {
+    border-right: none;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/**----------------------
+* main
+*/
+.main-wrap {
+  min-height: 400px;
+}
+
+/**-----------------------
+* comments
+*/
+.comment {
+  border: 1px solid black;
+  border-radius: 5px/5px;
+  box-shadow: 1px 1px black;
+  padding: 5px;
+
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
+/**----------------------
+* footer
+*/
+
+
+a.more{font-size:0.8em; text-decoration:underline; color:#006F9A}
+.social{margin:10px 0 20px 0;}
+.social a{
+	opacity:0.5;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+}
+.social a:hover{opacity:1;}
+.footer p{color:#565656;}
+footer{text-align:center;}
+.footer p:last-of-type{margin-bottom:0;}
+.copy{font-size:0.6em; margin:10px 0; color:#777; text-align:center;}
+.copy a{color:#B43641;}
+.footer{
+	font-size:0.8em;
+	}

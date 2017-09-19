@@ -1,0 +1,22 @@
+{
+    "require": {
+        "anax/request": "^1.0",
+        "anax/url": "^1.0",
+        "anax/router": "^1.0",
+        "anax/response": "^1.0",
+        "anax/view": "^1.0",
+        "anax/session": "^1.0",
+        "anax/configure": "^1.0",
+        "anax/textfilter": "^1.0",
+        "symfony/yaml": "^3.3",
+        "mos/cimage": "^0.7.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anax\\": "src/"
+          }
+    },
+    "license": "proprietary",
+    "name": "anax/geka16",
+    "description": "framework for course ramverk1"
+}
